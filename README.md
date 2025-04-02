@@ -1,6 +1,6 @@
-# QML
+## QML
 
-Week 1: Quantum Computing Basics for ML Practitioners
+# Week 1: Quantum Computing Basics for ML Practitioners
 
     Theory: Learn quantum mechanics essentials (qubits, superposition, entanglement, measurement), quantum gates (Hadamard, Pauli, CNOT), and quantum circuits.
     Resources:
@@ -10,7 +10,7 @@ Week 1: Quantum Computing Basics for ML Practitioners
     Project: Build a quantum random number generator (e.g., using Hadamard gates) and compare it to classical RNG.
         Deliverable: Python script on GitHub with output comparison.
 
-Week 2: Quantum Circuits and Algorithms
+# Week 2: Quantum Circuits and Algorithms
 
     Theory: Explore quantum algorithms (Deutsch-Jozsa, Grover’s) and their relevance to ML optimization/search problems.
     Resources:
@@ -20,7 +20,7 @@ Week 2: Quantum Circuits and Algorithms
     Project: Implement Grover’s algorithm to search an unstructured dataset (e.g., a small list).
         Deliverable: Qiskit code showing search results and runtime comparison with classical search.
 
-Week 3: Introduction to Quantum Machine Learning
+# Week 3: Introduction to Quantum Machine Learning
 
     Theory: Understand QML fundamentals—quantum data encoding (basis, angle, amplitude), variational circuits, and hybrid quantum-classical models.
     Resources:
@@ -30,7 +30,7 @@ Week 3: Introduction to Quantum Machine Learning
     Project: Encode a small dataset (e.g., 2D points from your DL experience) into a quantum circuit and measure it.
         Deliverable: Python script with encoded state and measurement outcomes.
 
-Week 4: Variational Quantum Circuits
+# Week 4: Variational Quantum Circuits
 
     Theory: Dive into variational quantum eigensolvers (VQE) and parameterized circuits, connecting them to DL optimization (e.g., gradient descent).
     Resources:
@@ -40,7 +40,7 @@ Week 4: Variational Quantum Circuits
     Project: Use VQE to approximate the ground state of a simple system (e.g., H₂ molecule).
         Deliverable: Qiskit script with energy output and optimization plot.
 
-Week 5: Hybrid Quantum-Classical Models
+# Week 5: Hybrid Quantum-Classical Models
 
     Theory: Study hybrid workflows integrating quantum circuits with classical DL frameworks (e.g., neural networks).
     Resources:
@@ -49,7 +49,7 @@ Week 5: Hybrid Quantum-Classical Models
     Project: Build a hybrid classifier (e.g., quantum layer + classical NN) for a binary dataset (e.g., moons).
         Deliverable: Python script comparing hybrid vs. classical DL accuracy.
 
-Week 6: Quantum Support Vector Machines (QSVM)
+# Week 6: Quantum Support Vector Machines (QSVM)
 
     Theory: Learn quantum kernel methods and QSVMs, relating them to classical SVMs you know.
     Resources:
@@ -59,7 +59,7 @@ Week 6: Quantum Support Vector Machines (QSVM)
     Project: Train a QSVM on a dataset (e.g., Iris subset) and compare with your classical SVM results.
         Deliverable: Qiskit code with accuracy metrics and kernel visualization.
 
-Week 7: Quantum Neural Networks (QNNs)
+# Week 7: Quantum Neural Networks (QNNs)
 
     Theory: Explore QNN architectures and their parallels to classical deep networks (e.g., layers, weights).
     Resources:
@@ -68,7 +68,7 @@ Week 7: Quantum Neural Networks (QNNs)
     Project: Build a QNN to solve a classification task (e.g., XOR or a small MNIST subset).
         Deliverable: Python script with training loss and accuracy curves.
 
-Week 8: Quantum Data Processing and Feature Maps
+# Week 8: Quantum Data Processing and Feature Maps
 
     Theory: Study advanced quantum feature maps and embeddings, comparing them to DL feature engineering.
     Resources:
@@ -77,7 +77,7 @@ Week 8: Quantum Data Processing and Feature Maps
     Project: Compare different quantum feature maps on a dataset you’ve used in DL (e.g., CIFAR-10 subset).
         Deliverable: Python script with performance metrics or visualizations.
 
-Week 9: Quantum Optimization for ML
+# Week 9: Quantum Optimization for ML
 
     Theory: Investigate quantum optimization (e.g., QAOA) and its applications to ML hyperparameter tuning or loss minimization.
     Resources:
@@ -86,7 +86,7 @@ Week 9: Quantum Optimization for ML
     Project: Use QAOA to optimize a simple ML-related problem (e.g., clustering cost function).
         Deliverable: Qiskit code with solution and comparison to classical optimization.
 
-Week 10: Noise and Real Quantum Hardware
+# Week 10: Noise and Real Quantum Hardware
 
     Theory: Learn about quantum noise, error mitigation, and running QML on real quantum devices.
     Resources:
@@ -96,7 +96,7 @@ Week 10: Noise and Real Quantum Hardware
     Project: Deploy a QNN or QSVM on a real quantum device and analyze noise impact.
         Deliverable: Python script with results from simulator vs. hardware.
 
-Week 11: Advanced QML Applications
+# Week 11: Advanced QML Applications
 
     Theory: Explore cutting-edge QML use cases (e.g., generative models, quantum GANs) and their ties to DL.
     Resources:
@@ -106,7 +106,7 @@ Week 11: Advanced QML Applications
     Project: Build a quantum generative model (e.g., simple QGAN) for a small dataset.
         Deliverable: Python script with generated samples and evaluation.
 
-Week 12: Capstone Project and Future Directions
+# Week 12: Capstone Project and Future Directions
 
     Theory: Consolidate knowledge, explore advanced topics (e.g., quantum transfer learning, fault-tolerant QML).
     Resources:
@@ -120,7 +120,7 @@ Week 12: Capstone Project and Future Directions
 General Tips
 
     Tools: Use Qiskit (quantum circuits), PennyLane (QML focus), and TensorFlow Quantum (hybrid DL integration). Leverage your DL tools (e.g., PyTorch) for classical components.
-    Time Management: Allocate ~10-15 hours/week: 40% theory, 40% coding, 20% deployment.
+    # Time Management: Allocate ~10-15 hours/week: 40% theory, 40% coding, 20% deployment.
     Deployment: Share projects on GitHub or a portfolio site. Use Jupyter notebooks for clarity and visualization.
-    Hardware: Start with simulators; transition to IBM Quantum’s free cloud access in Week 10.
+    # Hardware: Start with simulators; transition to IBM Quantum’s free cloud access in Week 10.
     Leverage ML/DL: Relate quantum concepts to your ML/DL intuition (e.g., variational circuits as neural layers, quantum kernels as feature spaces).
